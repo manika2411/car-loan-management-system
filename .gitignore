@@ -1,0 +1,40 @@
+# ===== Backend (Spring Boot / Maven) =====
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+application.properties
+application-local.properties
+application-secrets.properties
+*.env
+
+uploads/
+*.log
+
+# ===== Frontend (React / Vite) =====
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+.env
+.env.local
+.env.*.local
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Misc =====
+*.tmp
+*.bak
